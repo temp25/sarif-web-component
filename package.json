@@ -9,8 +9,7 @@
 		"url": "https://github.com/Microsoft/sarif-web-component"
 	},
 	"scripts": {
-                "prestart": "npm install --dev", 
-		"start": "webpack-dev-server --mode development",
+                "start": "webpack-dev-server --mode development",
 		"test": "jest",
 		"test:watch": "jest --watchAll",
 		"npm": "webpack --config ./webpack.config.npm.js",
