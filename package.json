@@ -15,6 +15,9 @@
 		"npm": "webpack --config ./webpack.config.npm.js",
 		"docs": "webpack --config ./webpack.config.docs.js"
 	},
+        "engines" : {
+            "node" : ">=16.16.0"
+        },
 	"devDependencies": {
 		"@babel/preset-env": "^7.4.5",
 		"@types/enzyme": "3.10.8",
